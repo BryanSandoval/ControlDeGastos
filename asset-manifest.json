@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ControlDeGastos/static/css/main.571e6405.chunk.css",
+    "main.js": "/ControlDeGastos/static/js/main.1e3a0cfe.chunk.js",
+    "main.js.map": "/ControlDeGastos/static/js/main.1e3a0cfe.chunk.js.map",
+    "runtime-main.js": "/ControlDeGastos/static/js/runtime-main.fbe88523.js",
+    "runtime-main.js.map": "/ControlDeGastos/static/js/runtime-main.fbe88523.js.map",
+    "static/js/2.b190f742.chunk.js": "/ControlDeGastos/static/js/2.b190f742.chunk.js",
+    "static/js/2.b190f742.chunk.js.map": "/ControlDeGastos/static/js/2.b190f742.chunk.js.map",
+    "index.html": "/ControlDeGastos/index.html",
+    "precache-manifest.c6f36f299e0114888417c463f6381505.js": "/ControlDeGastos/precache-manifest.c6f36f299e0114888417c463f6381505.js",
+    "service-worker.js": "/ControlDeGastos/service-worker.js",
+    "static/css/main.571e6405.chunk.css.map": "/ControlDeGastos/static/css/main.571e6405.chunk.css.map",
+    "static/js/2.b190f742.chunk.js.LICENSE.txt": "/ControlDeGastos/static/js/2.b190f742.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fbe88523.js",
+    "static/js/2.b190f742.chunk.js",
+    "static/css/main.571e6405.chunk.css",
+    "static/js/main.1e3a0cfe.chunk.js"
+  ]
+}
