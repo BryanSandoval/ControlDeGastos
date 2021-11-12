@@ -3,9 +3,11 @@ import { GlobalContext } from '../context/GlobalState';
 
 //Money formatter function
 function moneyFormatter(num) {
-  let p = num.toFixed(2).split('.');
+  //let p = num.toFixed(2).split('.');
+  const f = new Intl.NumberFormat('es-CR', {style:'currency', currency:'CRC', minimumFractionDigits:2}); // Formatea montos
   return (
-    '$ ' +
+    '' + f.format(num)
+    /*'$ ' + (p[0].split('')[0]=== '-' ? '-' : '') +
     p[0]
       .split('')
       .reverse()
@@ -13,7 +15,7 @@ function moneyFormatter(num) {
         return num === '-' ? acc : num + (i && !(i % 3) ? ',' : '') + acc;
       }, '') +
     '.' +
-    p[1]
+    p[1]*/
   );
 }
 
