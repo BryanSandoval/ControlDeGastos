@@ -3,7 +3,7 @@ import { GlobalContext } from '../context/GlobalState';
 
 //Money formatter function
 function moneyFormatter(num) {
-  let p = num.toFixed(2).split('.');
+  /*let p = num.toFixed(2).split('.');
   return (
     '$ ' +
     p[0]
@@ -14,6 +14,19 @@ function moneyFormatter(num) {
       }, '') +
     '.' +
     p[1]
+  );*/
+  const f = new Intl.NumberFormat('es-CR', {style:'currency', currency:'CRC', minimumFractionDigits:2}); // Formatea montos
+  return (
+    '' + f.format(num)
+    /*'$ ' + (p[0].split('')[0]=== '-' ? '-' : '') +
+    p[0]
+      .split('')
+      .reverse()
+      .reduce(function (acc, num, i, orig) {
+        return num === '-' ? acc : num + (i && !(i % 3) ? ',' : '') + acc;
+      }, '') +
+    '.' +
+    p[1]*/
   );
 }
 
@@ -34,11 +47,11 @@ export const IncomeExpenses = () => {
   return (
     <div className="inc-exp-container">
         <div>
-          <h4>Income</h4>
+          <h4>Ingresos</h4>
   <p className="money plus">{moneyFormatter(income)}</p>
         </div>
         <div>
-          <h4>Expense</h4>
+          <h4>Gastos</h4>
   <p className="money minus">{moneyFormatter(expense)}</p>
         </div>
       </div>
