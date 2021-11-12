@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9bef961a4f8e981d715284ce3210a96d",
+    "revision": "58914e95ec24341e2d2deea2e28e3257",
     "url": "/ControlDeGastos/index.html"
   },
   {
-    "revision": "c4378d38509b5fa632b3",
+    "revision": "961db1b4c95969860c21",
     "url": "/ControlDeGastos/static/css/main.571e6405.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ControlDeGastos/static/js/2.b190f742.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c4378d38509b5fa632b3",
-    "url": "/ControlDeGastos/static/js/main.1e3a0cfe.chunk.js"
+    "revision": "961db1b4c95969860c21",
+    "url": "/ControlDeGastos/static/js/main.c041b893.chunk.js"
   },
   {
     "revision": "e36f210fd7fd28c4e04d",
